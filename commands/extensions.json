@@ -12867,6 +12867,68 @@
           ]
         },
         {
+          "name" : "Youtube",
+          "path" : "youtube",
+          "scriptCommands" : [
+            {
+              "authors" : [
+                {
+                  "name" : "Jasdev Singh",
+                  "url" : "https:\/\/jasdev.me"
+                }
+              ],
+              "createdAt" : "2021-02-20T23:45:58-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Rips an .mp3 of a YouTube URL to a directory and opens with your app. of choice (defaults to QuickTime Player).",
+              "filename" : "youtube-dl-quick-open.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "💿"
+              },
+              "identifier" : "2f60176fab183fdb265fb9e5ca986cc4",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Music",
+              "path" : "media\/youtube\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "YouTube rip and quick open",
+              "updatedAt" : "2021-02-20T23:53:31-05:00"
+            },
+            {
+              "authors" : [
+                {
+                  "name" : "Jasdev Singh",
+                  "url" : "https:\/\/jasdev.me"
+                }
+              ],
+              "createdAt" : "2021-02-20T23:45:58-05:00",
+              "currentDirectoryPath" : null,
+              "description" : "Rips an .mp3 of a YouTube URL and places it in your Castro Sideloads folder.",
+              "filename" : "youtube-dl-castro-sideload.sh",
+              "hasArguments" : true,
+              "icon" : {
+                "dark" : null,
+                "light" : "💿"
+              },
+              "identifier" : "fce70ba3c98692ae28beeff51550a2be",
+              "isTemplate" : false,
+              "language" : "bash",
+              "mode" : "silent",
+              "needsConfirmation" : null,
+              "packageName" : "Music",
+              "path" : "media\/youtube\/",
+              "refreshTime" : null,
+              "schemaVersion" : 1,
+              "title" : "Castro Sideload",
+              "updatedAt" : "2021-02-20T23:53:31-05:00"
+            }
+          ]
+        },
+        {
           "name" : "Apple Tv",
           "path" : "apple-tv",
           "scriptCommands" : [
@@ -13018,6 +13080,6 @@
   "metadata" : [
 
   ],
-  "totalScriptCommands" : 457,
-  "updatedAt" : "2021-07-05T10:16:16Z"
+  "totalScriptCommands" : 459,
+  "updatedAt" : "2021-07-06T00:10:16Z"
 }

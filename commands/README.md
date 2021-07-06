@@ -90,6 +90,7 @@ This repository contains sample commands and documentation to write your own one
   - [Apple Tv](#apple-tv)
   - [Cmus](#cmus)
   - [Spotify](#spotify)
+  - [Youtube](#youtube)
 - [Navigation](#navigation)
 - [Password Managers](#password-managers)
   - [Bitwarden](#bitwarden)
@@ -708,6 +709,13 @@ This repository contains sample commands and documentation to write your own one
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/spotify/images/spotify-logo.png" width="20" height="20"> | [Play Track or Playlist](media/spotify/spotify-play-playlist.template.applescript) | Play playlist or track in Spotify. | [Thomas Paul Mann](https://github.com/thomaspaulmann) |  | ✅ | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/spotify/images/spotify-logo.png" width="20" height="20"> | [Previous Track](media/spotify/spotify-previous-track.applescript) | Skips to the previous track in Spotify. | Raycast |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
   | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/media/spotify/images/spotify-logo.png" width="20" height="20"> | [Toggle Play/Pause](media/spotify/spotify-play-pause.applescript) | Toggles play or pause of current track in Spotify. | Raycast |  |  | <img src="images/icon-applescript.png" width="20" height="20" title="AppleScript"> |
+
+#### Youtube
+
+| Icon | Title | Description | Author | Args | Templ | Lang |
+| ---- | ----- | ----------- | ------ | ---- | ----- | ---- |
+  | 💿 | [Castro Sideload](media/youtube/youtube-dl-castro-sideload.sh) | Rips an .mp3 of a YouTube URL and places it in your Castro Sideloads folder. | [Jasdev Singh](https://jasdev.me) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
+  | 💿 | [YouTube rip and quick open](media/youtube/youtube-dl-quick-open.sh) | Rips an .mp3 of a YouTube URL to a directory and opens with your app. of choice (defaults to QuickTime Player). | [Jasdev Singh](https://jasdev.me) | ✅ |  | <img src="images/icon-bash.png" width="20" height="20" title="Bash"> |
 
 ## Navigation
 
